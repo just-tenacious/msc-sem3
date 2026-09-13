@@ -1,0 +1,23 @@
+For backend:
+
+mkdir server
+cd server
+
+Install packages:
+
+npm install express socket.io mongoose cors dotenv
+npm install --save-dev nodemon
+
+
+update package.json:
+
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+
+
+
+Frontend:
+
+npm create vite@latest client -- --template react

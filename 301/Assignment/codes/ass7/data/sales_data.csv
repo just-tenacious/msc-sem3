@@ -1,0 +1,8 @@
+Sale_ID,Customer,Product,Category,Quantity,Price,Total_Sales,Date,Region
+S101,Ramesh,Laptop,Electronics,2.0,55000.0,110000.0,2023-01-10,East
+S102,Priya,Mobile,Electronics,1.0,20000.0,20000.0,2023-01-12,West
+S103,Mohan,Shirt,Clothing,3.0,1500.0,4500.0,2023-01-13,East
+S104,Neha,Shoes,Clothing,2.0,2500.0,5000.0,2023-01-15,
+S105,Ramesh,Laptop,Electronics,2.0,55000.0,110000.0,2023-01-10,East
+S106,Anjali,Watch,Accessories,1.0,,,2023-01-18,South
+S107,Mohan,Shirt,Clothing,,1500.0,,2023-01-13,East

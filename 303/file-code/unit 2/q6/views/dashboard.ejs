@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Dashboard</title>
+</head>
+
+<body>
+
+    <h1>User Dashboard</h1>
+
+    <% if (users.length === 0) { %>
+
+        <p>No users found.</p>
+
+    <% } else { %>
+
+        <% users.forEach(user => { %>
+
+            <div>
+                <h2><%= user.name %></h2>
+
+                <p>ID: <%= user.id %></p>
+
+                <p>Email: <%= user.email %></p>
+
+                <p>Age: <%= user.age %></p>
+            </div>
+
+        <% }); %>
+
+    <% } %>
+
+</body>
+
+</html>

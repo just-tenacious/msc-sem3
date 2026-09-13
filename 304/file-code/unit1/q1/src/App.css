@@ -1,0 +1,501 @@
+/* ==============================
+   Main Application
+============================== */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f4f9ff;
+}
+
+
+/* ==============================
+   HEADER
+============================== */
+
+.header {
+  position: relative;
+  min-height: 220px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    #071d49,
+    #0b3d91,
+    #0755b8
+  );
+
+  color: white;
+  overflow: hidden;
+
+  border-bottom: 5px solid #3a86ff;
+}
+
+/* Background decorative circles */
+
+.header::before {
+  content: "";
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  right: -150px;
+  top: -300px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  left: -180px;
+  bottom: -250px;
+
+  border-radius: 50%;
+
+  background: rgba(58, 134, 255, 0.12);
+}
+
+
+/* React logo */
+
+.react-logo {
+  position: absolute;
+  left: 14%;
+
+  font-size: 75px;
+  color: #61dafb;
+
+  z-index: 2;
+
+  text-shadow:
+    0 0 15px rgba(97, 218, 251, 0.5);
+}
+
+
+/* Header content */
+
+.header-content {
+  text-align: center;
+  z-index: 2;
+}
+
+.header-content h1 {
+  margin: 0;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.header-content p {
+  margin-top: 12px;
+
+  font-size: 21px;
+
+  opacity: 0.9;
+}
+
+
+/* Code icon */
+
+.code-icon {
+  position: absolute;
+  right: 14%;
+
+  font-size: 50px;
+  font-weight: bold;
+
+  z-index: 2;
+
+  opacity: 0.9;
+}
+
+
+/* ==============================
+   MAIN SECTION
+============================== */
+
+.main {
+  flex: 1;
+
+  padding: 55px 7% 60px;
+
+  text-align: center;
+
+  position: relative;
+
+  background:
+    radial-gradient(
+      circle at 10% 30%,
+      rgba(58, 134, 255, 0.08),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 90% 50%,
+      rgba(46, 196, 182, 0.07),
+      transparent 25%
+    ),
+    #f4f9ff;
+}
+
+
+/* Welcome label */
+
+.welcome-label {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 18px;
+
+  color: #1261d6;
+
+  font-weight: 700;
+
+  font-size: 16px;
+
+  letter-spacing: 1px;
+}
+
+.welcome-label span {
+  width: 28px;
+  height: 3px;
+
+  background: #bcd8ff;
+
+  border-radius: 5px;
+}
+
+
+/* Main heading */
+
+.main h2 {
+  margin: 20px 0 10px;
+
+  color: #102a56;
+
+  font-size: 42px;
+
+  font-weight: 700;
+}
+
+
+/* Heading underline */
+
+.underline {
+  width: 80px;
+  height: 5px;
+
+  margin: 18px auto 25px;
+
+  border-radius: 10px;
+
+  background: #287bea;
+}
+
+
+/* Description */
+
+.description {
+  color: #24385b;
+
+  font-size: 18px;
+
+  line-height: 1.7;
+
+  margin-bottom: 45px;
+}
+
+
+/* ==============================
+   FEATURE CARDS
+============================== */
+
+.features {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 28px;
+
+  max-width: 1120px;
+
+  margin: auto;
+}
+
+
+/* Card */
+
+.feature-card {
+  background: white;
+
+  padding: 30px 25px;
+
+  border-radius: 16px;
+
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: flex-start;
+
+  box-shadow:
+    0 8px 25px rgba(10, 37, 64, 0.10);
+
+  border: 1px solid #e7effa;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Hover effect */
+
+.feature-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 35px rgba(10, 37, 64, 0.16);
+}
+
+
+/* Feature icon */
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  font-weight: 700;
+}
+
+
+/* Individual icons */
+
+.react-icon {
+  background: #e3efff;
+
+  color: #1261d6;
+
+  font-size: 52px;
+}
+
+.jsx-icon {
+  background: #dcf5ed;
+
+  color: #07945f;
+
+  font-size: 28px;
+}
+
+.component-icon {
+  background: #eee7ff;
+
+  color: #6134d9;
+
+  font-size: 58px;
+}
+
+.spa-icon {
+  background: #fff0e3;
+
+  color: #ef851c;
+
+  font-size: 55px;
+}
+
+
+/* Card heading */
+
+.feature-card h3 {
+  margin: 0 0 12px;
+
+  color: #10234b;
+
+  font-size: 23px;
+}
+
+
+/* Card paragraph */
+
+.feature-card p {
+  margin: 0;
+
+  color: #40516f;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+}
+
+
+/* ==============================
+   FOOTER
+============================== */
+
+.footer {
+  background: linear-gradient(
+    135deg,
+    #0847b8,
+    #063a9b,
+    #0a55c9
+  );
+
+  color: white;
+
+  text-align: center;
+
+  padding: 25px 20px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+
+.footer::before {
+  content: "";
+
+  position: absolute;
+
+  width: 500px;
+  height: 180px;
+
+  left: -100px;
+  bottom: -130px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
+
+.heart {
+  font-size: 38px;
+
+  margin-bottom: 5px;
+
+  position: relative;
+  z-index: 1;
+}
+
+
+.footer p {
+  margin: 5px 0 15px;
+
+  font-size: 15px;
+
+  position: relative;
+  z-index: 1;
+}
+
+
+.social-icons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.social-icons span {
+  cursor: pointer;
+
+  transition: transform 0.2s ease;
+}
+
+.social-icons span:hover {
+  transform: scale(1.2);
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+============================== */
+
+@media (max-width: 900px) {
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .react-logo {
+    left: 5%;
+  }
+
+  .code-icon {
+    right: 5%;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .header {
+    min-height: 190px;
+  }
+
+  .header-content h1 {
+    font-size: 34px;
+  }
+
+  .header-content p {
+    font-size: 17px;
+  }
+
+  .react-logo,
+  .code-icon {
+    display: none;
+  }
+
+  .main {
+    padding: 40px 20px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    min-height: auto;
+  }
+}

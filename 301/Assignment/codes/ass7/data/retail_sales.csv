@@ -1,0 +1,11 @@
+OrderID,Product,Category,Quantity,Price,Total_Sales,Date
+101,Laptop,Electronics,2.0,55000.0,110000.0,2023-01-10
+102,Mobile,Electronics,1.0,20000.0,20000.0,2023-01-12
+103,,Clothing,3.0,1500.0,4500.0,2023-01-13
+104,Shoes,Clothing,2.0,2500.0,5000.0,2023-01-15
+105,Laptop,Electronics,1.0,,,2023-01-18
+106,Watch,Accessories,2.0,3000.0,6000.0,2023-01-20
+107,Laptop,Electronics,2.0,55000.0,110000.0,2023-01-10
+108,Mobile,Electronics,5.0,20000.0,100000.0,2023-01-22
+109,Shirt,Clothing,,1200.0,,2023-01-23
+110,Watch,Accessories,1.0,3000.0,3000.0,2023-01-25

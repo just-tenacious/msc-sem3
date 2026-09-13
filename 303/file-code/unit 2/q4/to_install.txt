@@ -1,0 +1,33 @@
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+
+npx babel src --out-dir dist
+
+in babel.config.js
+
+{
+    "presets": [
+        "@babel/preset-env"
+    ]
+}
+
+
+To Run:
+
+node src/app.js
+node dist/app.js
+
+
+Structure:
+
+q4/
+│
+├── src/
+│   └── app.js
+│
+├── dist/
+│   └── app.js
+│
+├── babel.config.json
+├── package.json
+├── package-lock.json
+└── node_modules/

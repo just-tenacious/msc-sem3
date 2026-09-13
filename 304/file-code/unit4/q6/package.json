@@ -1,0 +1,14 @@
+{
+  "name": "q6-jest-redux-reducer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^30.0.5",
+    "jest": "^30.0.5"
+  }
+}

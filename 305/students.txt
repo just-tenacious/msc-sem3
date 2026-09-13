@@ -1,0 +1,8 @@
+1	Shraddha	22	Computer Science	85
+2	Ankit	21	Computer Science	78
+3	Priya	23	Information Technology	92
+4	Rahul	20	Computer Science	65
+5	Neha	22	Electronics	74
+6	Karan	24	Information Technology	88
+7	Diya	21	Electronics	69
+8	Harsh	23	Computer Science	81

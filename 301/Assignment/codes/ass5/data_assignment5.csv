@@ -1,0 +1,51 @@
+Employee_ID,Employee_Name,Experience,Age,Gender,Address,State,Salary,Income,Purchased
+101,Rajesh Sharma,1,22,Male,Navrangpura Ahmedabad,Gujarat,25000,22000,0
+102,Priya Patel,1,23,Female,Vastrapur Ahmedabad,Gujarat,26000,24000,0
+103,Amit Kumar,2,23,Male,Saket Delhi,Delhi,28000,26000,0
+104,Neha Singh,2,24,Female,Gomti Nagar Lucknow,Uttar Pradesh,29000,28000,0
+105,Rohan Mehta,3,24,Male,Satellite Ahmedabad,Gujarat,31000,30000,0
+106,Anjali Verma,3,25,Female,Indiranagar Bangalore,Karnataka,33000,32000,0
+107,Vivek Shah,4,25,Male,Andheri Mumbai,Maharashtra,35000,34000,0
+108,Kavita Joshi,4,26,Female,Shivaji Nagar Pune,Maharashtra,37000,36000,0
+109,Arjun Reddy,5,26,Male,Banjara Hills Hyderabad,Telangana,39000,38000,0
+110,Pooja Nair,5,27,Female,Kochi Kerala,Kerala,41000,40000,0
+111,Rahul Gupta,6,27,Male,Noida Sector 18,Uttar Pradesh,44000,42000,0
+112,Sneha Iyer,6,28,Female,Adyar Chennai,Tamil Nadu,46000,44000,0
+113,Karan Malhotra,7,28,Male,Model Town Delhi,Delhi,49000,46000,0
+114,Divya Rao,7,29,Female,Whitefield Bangalore,Karnataka,51000,48000,0
+115,Manish Jain,8,29,Male,CG Road Ahmedabad,Gujarat,54000,50000,1
+116,Simran Kaur,8,30,Female,Chandigarh Sector 22,Chandigarh,56000,52000,1
+117,Vikas Yadav,9,30,Male,Gurgaon Haryana,Haryana,59000,54000,1
+118,Ritika Kapoor,9,31,Female,Lajpat Nagar Delhi,Delhi,61000,56000,1
+119,Aditya Kulkarni,10,31,Male,Kothrud Pune,Maharashtra,64000,58000,1
+120,Nisha Desai,10,32,Female,Vadodara Gujarat,Gujarat,66000,60000,1
+121,Sanjay Mishra,11,32,Male,Bhopal Madhya Pradesh,Madhya Pradesh,69000,62000,1
+122,Ishita Roy,11,33,Female,Salt Lake Kolkata,West Bengal,71000,64000,1
+123,Harsh Vora,12,33,Male,Maninagar Ahmedabad,Gujarat,74000,66000,1
+124,Meera Das,12,34,Female,Bhubaneswar Odisha,Odisha,76000,68000,1
+125,Nitin Agarwal,13,34,Male,Jaipur Rajasthan,Rajasthan,79000,70000,1
+126,Tanya Bose,13,35,Female,Pune Camp Pune,Maharashtra,81000,72000,1
+127,Deepak Soni,14,35,Male,Surat Gujarat,Gujarat,84000,74000,1
+128,Ayesha Khan,14,36,Female,Bandra Mumbai,Maharashtra,86000,76000,1
+129,Varun Chopra,15,36,Male,Amritsar Punjab,Punjab,89000,78000,1
+130,Swati Menon,15,37,Female,Thiruvananthapuram Kerala,Kerala,91000,80000,1
+131,Akash Tiwari,16,37,Male,Kanpur Uttar Pradesh,Uttar Pradesh,94000,82000,1
+132,Riya Sharma,16,38,Female,Rohini Delhi,Delhi,96000,84000,1
+133,Mohit Bansal,17,38,Male,Noida Uttar Pradesh,Uttar Pradesh,99000,86000,1
+134,Pallavi Reddy,17,39,Female,Hitech City Hyderabad,Telangana,101000,88000,1
+135,Abhishek Jain,18,39,Male,Indore Madhya Pradesh,Madhya Pradesh,104000,90000,1
+136,Komal Gupta,18,40,Female,Ludhiana Punjab,Punjab,106000,92000,1
+137,Rajiv Thakur,19,40,Male,Shimla Himachal Pradesh,Himachal Pradesh,109000,94000,1
+138,Sonal Patel,19,41,Female,Gandhinagar Gujarat,Gujarat,111000,96000,1
+139,Sameer Sheikh,20,41,Male,Nagpur Maharashtra,Maharashtra,114000,98000,1
+140,Aarti Pillai,20,42,Female,Chennai Tamil Nadu,Tamil Nadu,116000,100000,1
+141,Yash Joshi,21,42,Male,Nashik Maharashtra,Maharashtra,119000,102000,1
+142,Kirti Singh,21,43,Female,Agra Uttar Pradesh,Uttar Pradesh,121000,104000,1
+143,Pranav Shah,22,43,Male,Rajkot Gujarat,Gujarat,124000,106000,1
+144,Shreya Nair,22,44,Female,Kozhikode Kerala,Kerala,126000,108000,1
+145,Ritesh Verma,23,44,Male,Patna Bihar,Bihar,129000,110000,1
+146,Priyanka Rao,23,45,Female,Mysore Karnataka,Karnataka,131000,112000,1
+147,Ankit Mehta,24,45,Male,Bharuch Gujarat,Gujarat,134000,114000,1
+148,Sakshi Kapoor,24,46,Female,Faridabad Haryana,Haryana,136000,116000,1
+149,Dev Patel,25,46,Male,Ahmedabad Gujarat,Gujarat,139000,118000,1
+150,Monika Sharma,25,47,Female,Jaipur Rajasthan,Rajasthan,142000,120000,1

@@ -1,0 +1,6 @@
+customer_id,name,purchase_date,amount,category,category,discount,age
+C101,Ramesh,2023-01-10,2500.0,Electronics,Electronics,200.0,30.0
+C102,Sita,2023-01-12,,Clothing,Clothing,100.0,25.0
+C103,Mohan,2023-01-15,4000.0,Electronics,Electronics,,
+C104,Priya,,1500.0,Clothing,Clothing,50.0,28.0
+C105,Ramesh,2023-01-10,2500.0,Electronics,Electronics,200.0,30.0

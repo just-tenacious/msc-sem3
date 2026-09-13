@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.9.2.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.9.2.min.js"></script>
+<script>
+Bokeh.set_log_level("info");
+</script>
+  </head>
+  <body>
+    <div id="fb50c053-dafa-434c-bd0b-5e6d7af27994" data-root-id="p1016" style="display: contents;"></div>
+  
+    <script type="application/json" id="b364d5b9-aea7-4802-91c7-46de76ecdd35">
+      {"794df61e-65e4-489c-b754-a89f4a375fa5":{"version":"3.9.2","title":"Bokeh Application","config":{"type":"object","name":"DocumentConfig","id":"p1019","attributes":{"notifications":{"type":"object","name":"Notifications","id":"p1020"}}},"roots":[{"type":"object","name":"Column","id":"p1016","attributes":{"children":[{"type":"object","name":"Button","id":"p1006","attributes":{"js_event_callbacks":{"type":"map","entries":[["button_click",[{"type":"object","name":"CustomJS","id":"p1007","attributes":{"code":"\n        console.log(\n            'button: click!',\n            this.toString()\n        )\n        "}}]]]},"label":"GFG"}},{"type":"object","name":"CheckboxGroup","id":"p1008","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:active",[{"type":"object","name":"CustomJS","id":"p1009","attributes":{"code":"\n        console.log(\n            'checkbox_group: active=' + this.active,\n            this.toString()\n        )\n        "}}]]]},"labels":["First","Second","Third"],"active":[0,2]}},{"type":"object","name":"RadioGroup","id":"p1010","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:active",[{"type":"object","name":"CustomJS","id":"p1011","attributes":{"code":"\n        console.log(\n            'radio_group: active=' + this.active,\n            this.toString()\n        )\n        "}}]]]},"labels":["First","Second","Third"],"active":1}},{"type":"object","name":"Slider","id":"p1012","attributes":{"js_property_callbacks":{"type":"map","entries":[["change:value",[{"type":"object","name":"CustomJS","id":"p1013","attributes":{"code":"\n        console.log(\n            'slider: value=' + this.value,\n            this.toString()\n        )\n        "}}]]]},"title":"Slider","start":1,"end":20,"value":1,"step":2}},{"type":"object","name":"Dropdown","id":"p1014","attributes":{"button_type":"success","js_event_callbacks":{"type":"map","entries":[["menu_item_click",[{"type":"object","name":"CustomJS","id":"p1015","attributes":{"code":"\n        console.log(\n            'dropdown: ' + this.item,\n            this.toString()\n        )\n        "}}]]]},"label":"Dropdown Menu","menu":[["First","First"],["Second","Second"],["Third","Third"]]}}]}}]}}
+    </script>
+    <script>
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('b364d5b9-aea7-4802-91c7-46de76ecdd35').textContent;
+              const render_items = [{"docid":"794df61e-65e4-489c-b754-a89f4a375fa5","roots":{"p1016":"fb50c053-dafa-434c-bd0b-5e6d7af27994"},"root_ids":["p1016"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #0a2540;
+  color: white;
+  padding: 15px;
+}
+
+.parent-card {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #0a2540;
+  border-radius: 8px;
+}
+
+.child-card {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #999;
+  background-color: #f2f2f2;
+}
+
+.age {
+  color: #287bea;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #287bea;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #155bb5;
+}
