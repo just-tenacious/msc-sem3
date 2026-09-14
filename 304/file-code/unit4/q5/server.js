@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { graphqlHTTP } from "express-graphql";
 import { buildSchema } from "graphql";
 
@@ -35,17 +36,23 @@ const root = {
     };
 
     products.push(product);
+
     return product;
   }
 };
 
 const app = express();
 
-app.use("/graphql", graphqlHTTP({
-  schema,
-  rootValue: root,
-  graphiql: true
-}));
+app.use(cors());
+
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    rootValue: root,
+    graphiql: true
+  })
+);
 
 app.listen(4005, () => {
   console.log("Q5 GraphQL API: http://localhost:4005/graphql");

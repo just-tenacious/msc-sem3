@@ -109,6 +109,7 @@ Q4 - Apollo Client Space Launch
 -------------------------------
 cd q4
 npm install
+npm run server
 npm run dev
 
 Open the Vite URL shown in the terminal, normally:
@@ -120,6 +121,7 @@ Q5 - React + Apollo Product Management
 ---------------------------------------
 cd q5
 npm install
+npm run server
 npm run dev
 
 Open the Vite URL shown in the terminal, normally:

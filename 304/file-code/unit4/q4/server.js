@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { graphqlHTTP } from "express-graphql";
 import { buildSchema } from "graphql";
 
@@ -46,11 +47,16 @@ const root = {
 
 const app = express();
 
-app.use("/graphql", graphqlHTTP({
-  schema,
-  rootValue: root,
-  graphiql: true
-}));
+app.use(cors());
+
+app.use(
+  "/graphql",
+  graphqlHTTP({
+    schema,
+    rootValue: root,
+    graphiql: true
+  })
+);
 
 app.listen(4004, () => {
   console.log("Q4 GraphQL API: http://localhost:4004/graphql");
